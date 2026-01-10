@@ -1,0 +1,33 @@
+
+\begin{table*}[t]
+\centering
+\caption{Comprehensive Performance Analysis: Disease, Diet and Lifestyle Prediction Models}
+\label{tab:model_performance}
+\begin{tabular}{llcccccc}
+\toprule
+\textbf{Task} & \textbf{Algorithm} & \textbf{Accuracy} & \textbf{F1} & \textbf{Precision} & \textbf{Recall} & \textbf{Time (s)} \\
+\midrule
+Disease & XGBoost & 0.9567 & 0.9566 & 0.9567 & 0.9567 & 16.68 \\
+ & RandomForest & 0.9498 & 0.9495 & 0.9499 & 0.9498 & 19.61 \\
+ & LightGBM & 0.9497 & 0.9496 & 0.9497 & 0.9497 & 8.47 \\
+ & NeuralNetwork & 0.9366 & 0.9364 & 0.9367 & 0.9366 & 257.43 \\
+ & LogisticRegression & 0.8924 & 0.8912 & 0.8908 & 0.8924 & 10.62 \\
+ & SVM & 0.7463 & 0.7556 & 0.7946 & 0.7463 & 2847.86 \\
+\midrule
+Diet & LightGBM & 0.9790 & 0.9790 & 0.9790 & 0.9790 & 25.39 \\
+ & XGBoost & 0.9778 & 0.9778 & 0.9778 & 0.9778 & 27.62 \\
+ & RandomForest & 0.9680 & 0.9679 & 0.9681 & 0.9680 & 45.70 \\
+ & NeuralNetwork & 0.9587 & 0.9586 & 0.9587 & 0.9587 & 521.91 \\
+ & SVM & 0.9173 & 0.9170 & 0.9176 & 0.9173 & 4278.90 \\
+ & LogisticRegression & 0.7721 & 0.7693 & 0.7684 & 0.7721 & 116.79 \\
+\midrule
+Lifestyle & XGBoost & 0.9860 & 0.9860 & 0.9860 & 0.9860 & 23.96 \\
+ & RandomForest & 0.9768 & 0.9767 & 0.9777 & 0.9768 & 32.60 \\
+ & NeuralNetwork & 0.9768 & 0.9767 & 0.9768 & 0.9768 & 369.01 \\
+ & SVM & 0.9599 & 0.9598 & 0.9602 & 0.9599 & 1866.58 \\
+ & LogisticRegression & 0.9003 & 0.8984 & 0.8989 & 0.9003 & 191.25 \\
+ & LightGBM & 0.8623 & 0.8642 & 0.8742 & 0.8623 & 24.08 \\
+\midrule
+\bottomrule
+\end{tabular}
+\end{table*}
